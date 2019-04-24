@@ -1,5 +1,5 @@
 <?php
-namespace src\Integration;
+namespace App\Integration;
 
 class DataProvider implements IDataProvider
 {

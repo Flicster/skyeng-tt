@@ -1,9 +1,9 @@
 <?php
-namespace src\Integration;
+namespace App\Integration;
 
 abstract class DataProviderDecorator implements IDataProvider
 {
-    /** @var IDataProvider  */
+    /** @var IDataProvider */
     protected $dataProvider;
 
     public function __construct(IDataProvider $dataProvider)

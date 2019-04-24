@@ -1,8 +1,8 @@
 <?php
-namespace src\Integration\Decorator;
+namespace App\Integration\Decorator;
 
-use src\Integration\DataProviderDecorator;
-use src\Integration\IDataProvider;
+use App\Integration\DataProviderDecorator;
+use App\Integration\IDataProvider;
 use Psr\Log\LoggerInterface;
 
 class LoggerDecorator extends DataProviderDecorator {
